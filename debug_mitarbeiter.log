@@ -1,0 +1,1221 @@
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+!!! Ausnahme in aktualisiere_tabelle !!!
+Traceback (most recent call last):
+  File "C:\Users\fabia\PycharmProjects\rufbereitschaft_programm\mitarbeiter.py", line 110, in aktualisiere_tabelle
+    print(f"Zeile {row} Farbe: {farbwert}")
+                                ^^^^^^^^
+UnboundLocalError: cannot access local variable 'farbwert' where it is not associated with a value
+=== aktualisiere_tabelle ENDE mit Exception ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#2c87ff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#c8a0ff' | type: <class 'str'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#ffffff' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#6afff3' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#c8a0ff' | type: <class 'str'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#ffffff' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#6afff3' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#c8a0ff' | type: <class 'str'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#ffffff' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#6afff3' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#c8a0ff' | type: <class 'str'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#9bff6c' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#6afff3' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#c8a0ff' | type: <class 'str'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#9bff6c' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#6afff3' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#c8a0ff' | type: <class 'str'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#9bff6c' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#6afff3' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#c8a0ff' | type: <class 'str'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#9bff6c' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#6afff3' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#c8a0ff' | type: <class 'str'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#9bff6c' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#6afff3' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#c8a0ff' | type: <class 'str'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#9bff6c' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#6afff3' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#c8a0ff' | type: <class 'str'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#9bff6c' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#401aff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#c8a0ff' | type: <class 'str'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#9bff6c' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#401aff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#c8a0ff' | type: <class 'str'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#9bff6c' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#401aff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#c8a0ff' | type: <class 'str'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#9bff6c' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#401aff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#c8a0ff' | type: <class 'str'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#9bff6c' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#401aff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#c8a0ff' | type: <class 'str'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#9bff6c' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 3
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#401aff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#c8a0ff' | type: <class 'str'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#9bff6c' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#401aff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#c8a0ff' | type: <class 'str'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#9bff6c' | type: <class 'str'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 6 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: '' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: '' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 4, 1) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#ffffff' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#401aff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#c8a0ff' | type: <class 'str'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#9bff6c' | type: <class 'str'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 6 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 4, 1) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#aa007f' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#401aff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#c8a0ff' | type: <class 'str'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#9bff6c' | type: <class 'str'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 6 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 4, 1) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#aa007f' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#401aff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#c8a0ff' | type: <class 'str'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#9bff6c' | type: <class 'str'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 6 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 4, 1) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#aa007f' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#401aff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#c8a0ff' | type: <class 'str'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#9bff6c' | type: <class 'str'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 6 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 4, 1) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#aa55ff' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#401aff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#c8a0ff' | type: <class 'str'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#9bff6c' | type: <class 'str'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 6 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 4, 1) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#5dff2c' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#401aff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#c8a0ff' | type: <class 'str'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#9bff6c' | type: <class 'str'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 6 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 4, 1) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#ff0000' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#ffbcf8' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 4 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Jürgen' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 7) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#c8a0ff' | type: <class 'str'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 5 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 8, 10) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#9bff6c' | type: <class 'str'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 6 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: datetime.date(2025, 4, 1) | type: <class 'datetime.date'>
+  mitarbeiter_farbe -> repr: '#ff0000' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 0
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 1
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#4f30ff' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 1
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#4f30ff' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 1
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#4f30ff' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 1
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#4f30ff' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 2
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#4f30ff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ffff7f' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 2
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '11.08.2025' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#4f30ff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '11.08.2025' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ffff7f' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 2
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#4f30ff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ffff7f' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 2
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#4f30ff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ffff7f' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 2
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#4f30ff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ffff7f' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 2
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#4f30ff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ffff7f' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 2
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#4f30ff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ffff7f' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 2
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#4f30ff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ffff7f' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 2
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#4f30ff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ffff7f' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 2
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#4f30ff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ffff7f' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 2
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#4f30ff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ffff7f' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 2
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#4f30ff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ffff7f' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 2
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#4f30ff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ffff7f' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 2
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#4f30ff' | type: <class 'str'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ffff7f' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
