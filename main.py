@@ -7,18 +7,17 @@ from kalender import KalenderWidget
 from mitarbeiter import MitarbeiterWidget
 from datenbank import Datenbank
 from sollistwidget import SollIstWidget
-
+import os
 
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Rufbereitschaft-Programm")
         self.setGeometry(100, 100, 1000, 700)
-
+        datenbank_ordner = os.path.join(os.path.dirname(__file__), "datenbank")
+        datenbank_datei = os.path.join(datenbank_ordner, "rufbereitschaft.db")
         # Datenbank-Instanz
-        self.db = Datenbank(
-            datei="C:/Users/fabia/PycharmProjects/rufbereitschaft_programm/datenbank/rufbereitschaft.db"
-        )
+        self.db = Datenbank(datei=datenbank_datei)
 
         # Tab Widget erstellen
         tabs = QTabWidget()
