@@ -7,3 +7,33 @@ Anzahl datensätze: 0
 === aktualisiere_tabelle START ===
 Anzahl datensätze: 0
 === aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 0
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 1
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#8ef4ff' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 0
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 0
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 1
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-11' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ffffff' | type: <class 'str'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 0
+=== aktualisiere_tabelle ENDE erfolgreich ===

@@ -14,9 +14,12 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.setWindowTitle("Rufbereitschaft-Programm")
         self.setGeometry(100, 100, 1000, 700)
+
         datenbank_ordner = os.path.join(os.path.dirname(__file__), "datenbank")
+        if not os.path.exists(datenbank_ordner):
+            os.makedirs(datenbank_ordner)
         datenbank_datei = os.path.join(datenbank_ordner, "rufbereitschaft.db")
-        # Datenbank-Instanz
+
         self.db = Datenbank(datei=datenbank_datei)
 
         # Tab Widget erstellen
