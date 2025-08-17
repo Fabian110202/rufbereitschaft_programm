@@ -52,6 +52,8 @@ missing module named _manylinux - imported by packaging._manylinux (delayed, opt
 missing module named importlib_resources - imported by setuptools._vendor.jaraco.text (optional)
 missing module named trove_classifiers - imported by setuptools.config._validate_pyproject.formats (optional)
 missing module named _suggestions - imported by traceback (delayed, optional)
+missing module named jnius - imported by platformdirs.android (delayed, conditional, optional)
+missing module named android - imported by platformdirs.android (delayed, conditional, optional)
 missing module named simplejson - imported by requests.compat (conditional, optional)
 missing module named dummy_threading - imported by requests.cookies (optional)
 missing module named zstandard - imported by urllib3.util.request (optional), urllib3.response (optional)

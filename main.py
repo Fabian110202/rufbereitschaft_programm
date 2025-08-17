@@ -8,6 +8,8 @@ from mitarbeiter import MitarbeiterWidget
 from datenbank import Datenbank
 from sollistwidget import SollIstWidget
 import os
+from pathlib import Path
+from platformdirs import user_data_dir
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -15,12 +17,17 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("Rufbereitschaft-Programm")
         self.setGeometry(100, 100, 1000, 700)
 
-        datenbank_ordner = os.path.join(os.path.dirname(__file__), "datenbank")
-        if not os.path.exists(datenbank_ordner):
-            os.makedirs(datenbank_ordner)
-        datenbank_datei = os.path.join(datenbank_ordner, "rufbereitschaft.db")
+        # Benutzer-spezifischen Datenordner bestimmen
+        app_name = "Rufbereitschaft"
+        app_author = "GahlenDevelopment"  # optional, unter Windows wird das als Unterordner genutzt
+        datenbank_ordner = Path(user_data_dir(app_name, app_author))
+        datenbank_ordner.mkdir(parents=True, exist_ok=True)
 
-        self.db = Datenbank(datei=datenbank_datei)
+        # Datenbank-Datei im Nutzerordner ablegen
+        datenbank_datei = datenbank_ordner / "rufbereitschaft.db"
+
+        # Verbindung zur DB herstellen
+        self.db = Datenbank(datei=str(datenbank_datei))
 
         # Tab Widget erstellen
         tabs = QTabWidget()
