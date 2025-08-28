@@ -31,7 +31,8 @@ class Datenbank:
             mitarbeiter_vorname TEXT DEFAULT NULL,
             mitarbeiter_nachname TEXT DEFAULT NULL,
             mitarbeiter_eintritt TEXT DEFAULT NULL,
-            mitarbeiter_farbe TEXT DEFAULT '#ffffff'
+            mitarbeiter_farbe TEXT DEFAULT '#ffffff',
+            mitarbeiter_ignorieren INTEGER DEFAULT 0
         );
         """
 
@@ -61,25 +62,25 @@ class Datenbank:
         self.conn.commit()
 
     def lade_mitarbeiter(self):
-        query = "SELECT mitarbeiter_id, mitarbeiter_vorname, mitarbeiter_nachname, mitarbeiter_eintritt, mitarbeiter_farbe FROM mitarbeiter"
+        query = "SELECT mitarbeiter_id, mitarbeiter_vorname, mitarbeiter_nachname, mitarbeiter_eintritt, mitarbeiter_farbe,mitarbeiter_ignorieren FROM mitarbeiter"
         self.cursor.execute(query)
         return [dict(row) for row in self.cursor.fetchall()]
 
-    def fuege_mitarbeiter_hinzu(self, vorname, nachname, eintritt, farbe):
+    def fuege_mitarbeiter_hinzu(self, vorname, nachname, eintritt, farbe, ignorieren):
         query = """
-        INSERT INTO mitarbeiter (mitarbeiter_vorname, mitarbeiter_nachname, mitarbeiter_eintritt, mitarbeiter_farbe)
-        VALUES (?, ?, ?, ?)
+        INSERT INTO mitarbeiter (mitarbeiter_vorname, mitarbeiter_nachname, mitarbeiter_eintritt, mitarbeiter_farbe, mitarbeiter_ignorieren)
+        VALUES (?, ?, ?, ?, ?)
         """
-        self.cursor.execute(query, (vorname, nachname, eintritt, farbe))
+        self.cursor.execute(query, (vorname, nachname, eintritt, farbe,ignorieren))
         self.conn.commit()
 
-    def aktualisiere_mitarbeiter(self, mitarbeiter_id, vorname, nachname, eintritt, farbe):
+    def aktualisiere_mitarbeiter(self, mitarbeiter_id, vorname, nachname, eintritt, farbe, ignore):
         query = """
         UPDATE mitarbeiter
-        SET mitarbeiter_vorname = ?, mitarbeiter_nachname = ?, mitarbeiter_eintritt = ?, mitarbeiter_farbe = ?
+        SET mitarbeiter_vorname = ?, mitarbeiter_nachname = ?, mitarbeiter_eintritt = ?, mitarbeiter_farbe = ?, mitarbeiter_ignorieren = ?
         WHERE mitarbeiter_id = ?
         """
-        self.cursor.execute(query, (vorname, nachname, eintritt, farbe, mitarbeiter_id))
+        self.cursor.execute(query, (vorname, nachname, eintritt, farbe, ignore, mitarbeiter_id))
         self.conn.commit()
 
     def loesche_mitarbeiter(self, mitarbeiter_id):
@@ -109,4 +110,37 @@ class Datenbank:
         WHERE id = ?
         """
         self.cursor.execute(query, (neues_datum, neue_mitarbeiter_id, eintrag_id))
+        self.conn.commit()
+
+    def get_selected_kalender(self, datum_str, mitarbeiter_id=None):
+        if mitarbeiter_id is None:
+            # alle Mitarbeiter an diesem Tag
+            self.cursor.execute("""
+                                SELECT id, mitarbeiter_id
+                                FROM kalender_mitarbeiter
+                                WHERE trim(datum) = ?
+                                """, (datum_str.strip(),))
+        else:
+            # nur bestimmter Mitarbeiter
+            self.cursor.execute("""
+                                SELECT id, mitarbeiter_id
+                                FROM kalender_mitarbeiter
+                                WHERE trim(datum) = ?
+                                  AND mitarbeiter_id = ?
+                                """, (datum_str.strip(), mitarbeiter_id))
+
+        return [dict(row) for row in self.cursor.fetchall()]
+
+    def isExisting(self, datum_str):
+        self.cursor.execute("""
+                            SELECT id
+                            FROM kalender_mitarbeiter
+                            WHERE trim(datum) = ?
+                            """, (datum_str.strip(),))
+
+        return self.cursor.fetchone() is not None
+
+    def loesche_kalender_eintrag(self,id):
+        query = "DELETE FROM kalender_mitarbeiter WHERE id = ?"
+        self.cursor.execute(query, (id,))
         self.conn.commit()

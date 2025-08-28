@@ -1,70 +1,11 @@
 import sqlite3
-from datetime import datetime
+from datetime import datetime, timedelta
 from PyQt5.QtWidgets import (
     QWidget, QVBoxLayout, QCalendarWidget, QLabel,
-    QDialog, QComboBox, QDialogButtonBox, QMessageBox
+    QDialog, QComboBox, QDialogButtonBox, QMessageBox, QDateEdit, QCheckBox, QLineEdit
 )
-from PyQt5.QtCore import QDate
-from PyQt5.QtGui import QTextCharFormat, QColor
-
-
-class KalenderDB:
-    def __init__(self, db_datei='kalender.db'):
-        self.conn = sqlite3.connect(db_datei)
-        self.conn.row_factory = sqlite3.Row  # Für dict-ähnliche Ergebnisse
-        self.cursor = self.conn.cursor()
-
-        # Foreign Keys in SQLite aktivieren
-        self.cursor.execute("PRAGMA foreign_keys = ON;")
-
-        # Tabellen anlegen, falls nicht existieren
-        self.erstelle_tabellen()
-
-    def erstelle_tabellen(self):
-        self.cursor.execute("""
-        CREATE TABLE IF NOT EXISTS mitarbeiter (
-            mitarbeiter_id INTEGER PRIMARY KEY AUTOINCREMENT,
-            mitarbeiter_vorname TEXT,
-            mitarbeiter_nachname TEXT,
-            mitarbeiter_eintritt TEXT,
-            mitarbeiter_farbe TEXT DEFAULT '#ffffff'
-        )
-        """)
-        self.cursor.execute("""
-        CREATE TABLE IF NOT EXISTS kalender_mitarbeiter (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            datum TEXT NOT NULL,
-            mitarbeiter_id INTEGER NOT NULL,
-            erstellt_am TEXT DEFAULT CURRENT_TIMESTAMP,
-            aktualisiert_am TEXT DEFAULT CURRENT_TIMESTAMP,
-            FOREIGN KEY (mitarbeiter_id) REFERENCES mitarbeiter(mitarbeiter_id)
-        )
-        """)
-        self.conn.commit()
-
-    def lade_mitarbeiter(self):
-        self.cursor.execute("SELECT mitarbeiter_id, mitarbeiter_vorname, mitarbeiter_nachname, mitarbeiter_farbe FROM mitarbeiter")
-        return [dict(row) for row in self.cursor.fetchall()]
-
-    def lade_kalender_eintraege(self, datum_str):
-        # datum_str im Format 'YYYY-MM-DD'
-        self.cursor.execute("SELECT id, mitarbeiter_id FROM kalender_mitarbeiter WHERE datum = ?", (datum_str,))
-        return [dict(row) for row in self.cursor.fetchall()]
-
-    def fuege_kalender_eintrag_hinzu(self, datum_str, mitarbeiter_id):
-        self.cursor.execute(
-            "INSERT INTO kalender_mitarbeiter (datum, mitarbeiter_id) VALUES (?, ?)",
-            (datum_str, mitarbeiter_id)
-        )
-        self.conn.commit()
-
-    def loesche_kalender_eintrag(self, kalender_id):
-        self.cursor.execute("DELETE FROM kalender_mitarbeiter WHERE id = ?", (kalender_id,))
-        self.conn.commit()
-
-    def schliesse_verbindung(self):
-        self.cursor.close()
-        self.conn.close()
+from PyQt5.QtCore import QDate, QTimer
+from PyQt5.QtGui import QTextCharFormat, QColor, QLinearGradient, QBrush
 
 
 class KalenderWidget(QWidget):
@@ -77,6 +18,10 @@ class KalenderWidget(QWidget):
         self.kalender.setGridVisible(True)
         self.kalender.clicked.connect(self.tag_geklickt)
         self.layout().addWidget(self.kalender)
+        self.legende_widget = QWidget()
+        self.legende_layout = QVBoxLayout()
+        self.legende_widget.setLayout(self.legende_layout)
+        self.layout().addWidget(self.legende_widget)
 
         self.status_label = QLabel("Wähle ein Datum.")
         self.layout().addWidget(self.status_label)
@@ -97,6 +42,47 @@ class KalenderWidget(QWidget):
 
         self.lade_alle_eintraege()
 
+    def aktualisiere_legende(self):
+        # Alle vorhandenen Widgets aus dem Legenden-Layout entfernen
+        while self.legende_layout.count():
+            item = self.legende_layout.takeAt(0)
+            widget = item.widget()
+            if widget is not None:
+                widget.deleteLater()
+
+        # Kombinationen von Mitarbeitern finden
+        kombinationen = {}
+        for eintraege_tag in self.eintraege.values():
+            mitarbeiter_ids = tuple(sorted([e["mitarbeiter_id"] for e in eintraege_tag]))
+            if mitarbeiter_ids not in kombinationen:
+                namen = [e["name"] for e in eintraege_tag]
+                kombinationen[mitarbeiter_ids] = namen
+
+        # Legende für jede Kombination erstellen
+        for ids, namen in kombinationen.items():
+            farben_valid = [QColor(self.mitarbeiter_farben.get(mid)) for mid in ids if
+                            QColor(self.mitarbeiter_farben.get(mid)).isValid()]
+
+            gemischte_farbe = QColor("white")
+            if len(farben_valid) == 1:
+                gemischte_farbe = farben_valid[0]
+            elif len(farben_valid) > 1:
+                total_r, total_g, total_b = 0, 0, 0
+                for qcolor in farben_valid:
+                    total_r += qcolor.red()
+                    total_g += qcolor.green()
+                    total_b += qcolor.blue()
+                count = len(farben_valid)
+                gemischte_farbe = QColor(total_r // count, total_g // count, total_b // count)
+
+            legenden_eintrag = QLabel()
+            style = f"background-color: {gemischte_farbe.name()}; border: 1px solid black;"
+            legenden_eintrag.setStyleSheet(style)
+            legenden_eintrag.setText(f"  {', '.join(namen)}")
+            self.legende_layout.addWidget(legenden_eintrag)
+
+        # Legende unsichtbar machen, wenn keine Kombinationen vorliegen
+        self.legende_widget.setVisible(bool(kombinationen))
     def lade_alle_eintraege(self):
         self.eintraege.clear()
         # Korrigierte SQL mit String-Verkettung in SQLite
@@ -130,14 +116,16 @@ class KalenderWidget(QWidget):
             })
 
         self.aktualisiere_alle_farbungen()
+        self.aktualisiere_legende()
 
     def aktualisiere_alle_farbungen(self):
+        self.kalender.setDateTextFormat(QDate(), QTextCharFormat())  # Alle Formate zurücksetzen
         for datum in self.eintraege:
             self.update_tag_formatierung(datum)
 
     def tag_geklickt(self, datum):
         self.status_label.setText(f"Ausgewählt: {datum.toString('dd.MM.yyyy')}")
-        dialog = EintragDialog(datum, self.mitarbeiter_liste)
+        dialog = EintragDialog(datum, self.mitarbeiter_liste, self.db, kalender_widget=self)
 
         if dialog.exec_():
             mitarbeiter = dialog.get_data()
@@ -149,9 +137,22 @@ class KalenderWidget(QWidget):
             if any(e["mitarbeiter_id"] == mitarbeiter["mitarbeiter_id"] for e in eintraege_heute):
                 QMessageBox.information(self, "Hinweis", f"{mitarbeiter['name']} ist bereits eingetragen.")
                 return
+            if mitarbeiter["start_datum"] > mitarbeiter["end_datum"]:
+                QMessageBox.information(self, "Hinweis", "Datum von vor dem Datum bis liegen")
 
-            datum_str = datum.toString("yyyy-MM-dd")
-            self.db.fuege_kalender_eintrag_hinzu(datum_str, mitarbeiter["mitarbeiter_id"])
+            dates =[]
+            current_date = mitarbeiter["start_datum"]
+
+            while current_date <=  mitarbeiter["end_datum"]:
+                dates.append(current_date)
+                current_date = current_date.addDays(1)
+
+            for d in dates:
+                if not mitarbeiter["mitarbeiter2_id"]:
+                    self.db.fuege_kalender_eintrag_hinzu(d.toString("yyyy-MM-dd"), mitarbeiter["mitarbeiter_id"])
+                else:
+                    self.db.fuege_kalender_eintrag_hinzu(d.toString("yyyy-MM-dd"), mitarbeiter["mitarbeiter_id"])
+                    self.db.fuege_kalender_eintrag_hinzu(d.toString("yyyy-MM-dd"), mitarbeiter["mitarbeiter2_id"])
             self.lade_alle_eintraege()
 
     def update_tag_formatierung(self, datum):
@@ -159,19 +160,43 @@ class KalenderWidget(QWidget):
             formatierung = QTextCharFormat()
 
             if datum in self.eintraege and self.eintraege[datum]:
-                erster_mitarbeiter_id = self.eintraege[datum][0]["mitarbeiter_id"]
+                mitarbeiter_ids = [e["mitarbeiter_id"] for e in self.eintraege[datum]]
+                farben = [self.mitarbeiter_farben.get(mid, "#FFFFFF") for mid in mitarbeiter_ids]
 
-                farbe_hex = self.mitarbeiter_farben.get(erster_mitarbeiter_id, "#FFFFFF")
-                farbe = QColor(farbe_hex)
-                if not farbe.isValid():
-                    farbe = QColor("#FFFFFF")
+                # Gültigkeit der Farben prüfen und ggf. auf Weiß zurücksetzen
+                farben_valid = [QColor(f) for f in farben if QColor(f).isValid()]
 
-                formatierung.setBackground(farbe)
-
+                # Tooltip mit allen Namen
                 namen = [e["name"] for e in self.eintraege[datum]]
                 tooltip_text = "Mitarbeiter an diesem Tag:\n" + "\n".join(namen)
                 formatierung.setToolTip(tooltip_text)
+
+                if len(farben_valid) == 0:
+                    # Keine gültigen Farben gefunden
+                    formatierung.setBackground(QColor("white"))
+
+                elif len(farben_valid) == 1:
+                    # Nur eine Farbe, diese direkt verwenden
+                    formatierung.setBackground(farben_valid[0])
+
+                else:
+                    # Mehrere Farben: RGB-Werte mischen
+                    total_r, total_g, total_b = 0, 0, 0
+                    for qcolor in farben_valid:
+                        total_r += qcolor.red()
+                        total_g += qcolor.green()
+                        total_b += qcolor.blue()
+
+                    count = len(farben_valid)
+                    avg_r = total_r // count
+                    avg_g = total_g // count
+                    avg_b = total_b // count
+
+                    mixed_color = QColor(avg_r, avg_g, avg_b)
+                    formatierung.setBackground(mixed_color)
+
             else:
+                # Standard-Formatierung, wenn keine Einträge vorhanden sind
                 formatierung.setBackground(QColor("white"))
                 formatierung.setToolTip("")
 
@@ -182,11 +207,17 @@ class KalenderWidget(QWidget):
 
 
 class EintragDialog(QDialog):
-    def __init__(self, datum, mitarbeiter_liste):
+    def __init__(self, datum, mitarbeiter_liste, db, kalender_widget):
         super().__init__()
+        self.kalender_widget = kalender_widget
         self.setWindowTitle(f"Mitarbeiter auswählen für {datum.toString('dd.MM.yyyy')}")
         self.setMinimumWidth(300)
         self.setLayout(QVBoxLayout())
+        self.start_datum = QDateEdit(datum)
+        self.start_datum.setCalendarPopup(True)
+        self.end_datum = QDateEdit(datum)
+        self.end_datum.setCalendarPopup(True)
+        self.db = db
 
         self.mitarbeiter_combo = QComboBox()
         for m in mitarbeiter_liste:
@@ -199,14 +230,102 @@ class EintragDialog(QDialog):
 
         self.layout().addWidget(QLabel("Mitarbeiter:"))
         self.layout().addWidget(self.mitarbeiter_combo)
+        self.layout().addWidget(QLabel("Von:"))
+        self.layout().addWidget(self.start_datum)
+        self.layout().addWidget(QLabel("Bis:"))
+        self.layout().addWidget(self.end_datum)
+        self.checkbox = QCheckBox("Tag geteilt")
+        self.checkbox.setChecked(False)
+        self.layout().addWidget(self.checkbox)
+        self.checkbox.stateChanged.connect(self.toggle_extra_field)
+
+        # Das zweite Combo erst als None setzen
+        self.mitarbeiter_combo2 = None
 
         buttons = QDialogButtonBox(QDialogButtonBox.Ok | QDialogButtonBox.Cancel)
         buttons.accepted.connect(self.accept)
         buttons.rejected.connect(self.reject)
+        datum_str = datum.toString("yyyy-MM-dd")
+
+        if self.checkbox.isChecked():
+            self.layout().addWidget(self.mitarbeiter_combo)
+
+        eintraege = db.get_selected_kalender(datum_str, None)  # alle an dem Tag holen
+        if eintraege:
+            if len(eintraege) >= 1:
+                self.mitarbeiter_combo.setCurrentIndex(
+                    self.mitarbeiter_combo.findData(eintraege[0]["mitarbeiter_id"])
+                )
+            if len(eintraege) >= 2:
+                # Checkbox aktivieren und zweites Feld anzeigen
+                self.checkbox.setChecked(True)
+                self.toggle_extra_field(2)
+                self.mitarbeiter_combo2.setCurrentIndex(
+                    self.mitarbeiter_combo2.findData(eintraege[1]["mitarbeiter_id"])
+                )
+
+        if self.db.isExisting(datum_str):
+            delete_button = buttons.addButton("Löschen", QDialogButtonBox.DestructiveRole)
+            delete_button.clicked.connect(self.loesche_eintrag)
+
         self.layout().addWidget(buttons)
 
     def get_data(self):
         return {
             "mitarbeiter_id": self.mitarbeiter_combo.currentData(),
-            "name": self.mitarbeiter_combo.currentText()
+            "name": self.mitarbeiter_combo.currentText(),
+            "start_datum": self.start_datum.date(),
+            "end_datum": self.end_datum.date(),
+            "mitarbeiter2_id": self.mitarbeiter_combo2.currentData() if self.mitarbeiter_combo2 else None
         }
+
+    def toggle_extra_field(self, state):
+        if state == 2:  # checked
+            if self.mitarbeiter_combo2 is None:
+                self.mitarbeiter_combo2 = QComboBox()
+                for m in self.db.lade_mitarbeiter():  # oder übergebenes mitarbeiter_liste
+                    if m["mitarbeiter_id"] is not None:
+                        name = f"{m['mitarbeiter_vorname']} {m['mitarbeiter_nachname']}"
+                        self.mitarbeiter_combo2.addItem(name, m["mitarbeiter_id"])
+                self.layout().addWidget(QLabel("Mitarbeiter 2:"))
+                self.layout().addWidget(self.mitarbeiter_combo2)
+            self.mitarbeiter_combo2.show()
+        else:
+            if self.mitarbeiter_combo2:
+                self.mitarbeiter_combo2.hide()
+
+    def loesche_eintrag(self):
+        mitarbeiter_id = self.mitarbeiter_combo.currentData()
+        datum_str = self.start_datum.date().toString("yyyy-MM-dd")
+
+        try:
+            eintraege = self.db.get_selected_kalender(datum_str, mitarbeiter_id)
+
+            if not eintraege:
+                QMessageBox.information(self, "Info", "Kein Eintrag zum Löschen gefunden.")
+                return
+
+            reply = QMessageBox.question(
+                self, "Löschen bestätigen",
+                f"Eintrag von {self.mitarbeiter_combo.currentText()} am {datum_str} löschen?",
+                QMessageBox.Yes | QMessageBox.No
+            )
+
+            if reply == QMessageBox.Yes:
+                for eintrag in eintraege:
+                    self.db.loesche_kalender_eintrag(eintrag["id"])
+
+                QMessageBox.information(self, "Erfolg", "Eintrag gelöscht.")
+
+                # Statt self.parent().lade_alle_eintraege()
+                if self.kalender_widget:
+                    self.kalender_widget.lade_alle_eintraege()
+                    self.kalender_widget.aktualisiere_alle_farbungen()
+                if not self.kalender_widget:
+                    print("Warnung: Kalender-Widget nicht gesetzt")
+
+                QTimer.singleShot(0, lambda: self.kalender_widget.lade_alle_eintraege())
+                self.close()
+        except Exception as e:
+            QMessageBox.critical(self, "Fehler", f"Löschen fehlgeschlagen:\n{e}")
+

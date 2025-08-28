@@ -6,7 +6,7 @@ from PyQt5.QtWidgets import (
     QWidget, QVBoxLayout, QPushButton, QHBoxLayout,
     QTableWidget, QTableWidgetItem, QDialog,
     QLineEdit, QFormLayout, QDialogButtonBox,
-    QColorDialog, QFrame, QDateEdit
+    QColorDialog, QFrame, QDateEdit, QCheckBox
 )
 from PyQt5.QtCore import QDate
 from PyQt5.QtGui import QColor
@@ -41,8 +41,8 @@ class MitarbeiterWidget(QWidget):
 
         # Tabelle
         self.tabelle = QTableWidget()
-        self.tabelle.setColumnCount(4)
-        self.tabelle.setHorizontalHeaderLabels(["ID", "Vorname", "Nachname", "Eintritt"])
+        self.tabelle.setColumnCount(5)
+        self.tabelle.setHorizontalHeaderLabels(["ID", "Vorname", "Nachname", "Eintritt", "Ignorieren"])
         self.layout().addWidget(self.tabelle)
 
         # Mitarbeiter laden
@@ -86,6 +86,12 @@ class MitarbeiterWidget(QWidget):
 
                     # Eintrittsdatum sicher formatieren
                     eintritt = mitarbeiter.get("mitarbeiter_eintritt")
+
+                    if mitarbeiter.get("mitarbeiter_ignorieren") == 1:
+                        ignore_val = "Ja"
+                    else:
+                        ignore_val = "Nein"
+
                     try:
                         if hasattr(eintritt, "strftime"):  # datetime.date/datetime
                             eintritt_val = eintritt.strftime("%Y-%m-%d")
@@ -105,6 +111,7 @@ class MitarbeiterWidget(QWidget):
                         vorname_item = QTableWidgetItem(vorname_val)
                         nachname_item = QTableWidgetItem(nachname_val)
                         eintritt_item = QTableWidgetItem(eintritt_val)
+                        ignore_item = QTableWidgetItem(ignore_val)
                     except Exception as e:
                         log.write(f"QTableWidgetItem creation error row {row}: {e}\n")
                         continue
@@ -118,7 +125,7 @@ class MitarbeiterWidget(QWidget):
                         if farbwert.startswith("#") and len(farbwert) == 7:
                             farbe = QColor(farbwert)
                             if farbe.isValid():
-                                for item in [id_item, vorname_item, nachname_item, eintritt_item]:
+                                for item in [id_item, vorname_item, nachname_item, eintritt_item,ignore_item]:
                                     item.setBackground(farbe)
 
                     # Items in Tabelle setzen
@@ -127,6 +134,7 @@ class MitarbeiterWidget(QWidget):
                         self.tabelle.setItem(row, 1, vorname_item)
                         self.tabelle.setItem(row, 2, nachname_item)
                         self.tabelle.setItem(row, 3, eintritt_item)
+                        self.tabelle.setItem(row, 4, ignore_item)
                     except Exception as e:
                         log.write(f"setItem error row {row}: {e}\n")
 
@@ -145,7 +153,8 @@ class MitarbeiterWidget(QWidget):
                     daten["vorname"],
                     daten["nachname"],
                     daten["eintritt"],
-                    daten["farbe"]
+                    daten["farbe"],
+                    daten["ignore"]
                 )
             except Exception:
                 import traceback
@@ -161,13 +170,15 @@ class MitarbeiterWidget(QWidget):
         dialog = MitarbeiterDialog(daten_alt)
         if dialog.exec_():
             daten = dialog.get_data()
+            print("hallo",daten["ignore"])
             try:
                 self.db.aktualisiere_mitarbeiter(
                     daten_alt["mitarbeiter_id"],
                     daten["vorname"],
                     daten["nachname"],
                     daten["eintritt"],
-                    daten["farbe"]
+                    daten["farbe"],
+                    daten["ignore"]
                 )
             except Exception:
                 import traceback
@@ -212,11 +223,14 @@ class MitarbeiterDialog(QDialog):
         self.layout().addRow("Nachname:", self.nachname)
         self.layout().addRow("Eintritt:", self.eintritt)
         self.layout().addRow("Farbe:", farbe_layout)
+        self.checkbox = QCheckBox("Ignorieren?")
+        self.layout().addWidget(self.checkbox)
 
         if daten:
             self.vorname.setText(daten.get("mitarbeiter_vorname", ""))
             self.nachname.setText(daten.get("mitarbeiter_nachname", ""))
             if daten.get("mitarbeiter_eintritt"):
+                print(daten.get("mitarbeiter_ignorieren", 0))
                 eintritt = daten["mitarbeiter_eintritt"]
                 if isinstance(eintritt, QDate):
                     self.eintritt.setDate(eintritt)
@@ -232,6 +246,9 @@ class MitarbeiterDialog(QDialog):
                 print("Dialog Farbe geladen:", daten["mitarbeiter_farbe"])
                 self.farbe = QColor(daten["mitarbeiter_farbe"])
                 self.farbe_preview.setStyleSheet(f"background-color: {self.farbe.name()}; border: 1px solid black;")
+
+            self.checkbox.setChecked(bool(daten.get("mitarbeiter_ignorieren", 0)))
+
 
         buttons = QDialogButtonBox(QDialogButtonBox.Ok | QDialogButtonBox.Cancel)
         buttons.accepted.connect(self.accept)
@@ -249,5 +266,6 @@ class MitarbeiterDialog(QDialog):
             "vorname": self.vorname.text(),
             "nachname": self.nachname.text(),
             "eintritt": self.eintritt.date().toPyDate(),
-            "farbe": self.farbe.name()
+            "farbe": self.farbe.name(),
+            "ignore": 1 if self.checkbox.isChecked() else 0,
         }
