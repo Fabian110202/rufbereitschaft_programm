@@ -56,7 +56,17 @@ class Datenbank:
         END;
         """
 
+        self.cursor.execute("PRAGMA table_info(kalender_mitarbeiter)")
+        columns = [col[1] for col in self.cursor.fetchall()]
+
+        if "individuelle_punkte" not in columns:
+            self.cursor.execute("""
+                        ALTER TABLE kalender_mitarbeiter 
+                        ADD COLUMN individuelle_punkte INTEGER NOT NULL DEFAULT 0;
+                    """)
+
         self.cursor.execute(mitarbeiter_sql)
+
         self.cursor.execute(kalender_sql)
         self.cursor.execute(trigger_sql)
         self.conn.commit()
@@ -98,9 +108,10 @@ class Datenbank:
         self.cursor.execute(query, (datum,))
         return [dict(row) for row in self.cursor.fetchall()]
 
-    def fuege_kalender_eintrag_hinzu(self, datum, mitarbeiter_id):
-        query = "INSERT INTO kalender_mitarbeiter (datum, mitarbeiter_id) VALUES (?, ?)"
-        self.cursor.execute(query, (datum, mitarbeiter_id))
+    def fuege_kalender_eintrag_hinzu(self, datum, mitarbeiter_id,individuelle_punkte):
+
+        query = "INSERT INTO kalender_mitarbeiter (datum, mitarbeiter_id,individuelle_punkte ) VALUES (?, ?, ?)"
+        self.cursor.execute(query, (datum, mitarbeiter_id, individuelle_punkte))
         self.conn.commit()
 
     def aktualisiere_kalender_eintrag(self, eintrag_id, neues_datum, neue_mitarbeiter_id):
@@ -116,14 +127,14 @@ class Datenbank:
         if mitarbeiter_id is None:
             # alle Mitarbeiter an diesem Tag
             self.cursor.execute("""
-                                SELECT id, mitarbeiter_id
+                                SELECT id, mitarbeiter_id,individuelle_punkte
                                 FROM kalender_mitarbeiter
                                 WHERE trim(datum) = ?
                                 """, (datum_str.strip(),))
         else:
             # nur bestimmter Mitarbeiter
             self.cursor.execute("""
-                                SELECT id, mitarbeiter_id
+                                SELECT id, mitarbeiter_id,individuelle_punkte
                                 FROM kalender_mitarbeiter
                                 WHERE trim(datum) = ?
                                   AND mitarbeiter_id = ?

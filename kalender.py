@@ -149,10 +149,14 @@ class KalenderWidget(QWidget):
 
             for d in dates:
                 if not mitarbeiter["mitarbeiter2_id"]:
-                    self.db.fuege_kalender_eintrag_hinzu(d.toString("yyyy-MM-dd"), mitarbeiter["mitarbeiter_id"])
+                    print("1")
+                    self.db.fuege_kalender_eintrag_hinzu(d.toString("yyyy-MM-dd"), mitarbeiter["mitarbeiter_id"], mitarbeiter["individual_point"])
+
+
                 else:
-                    self.db.fuege_kalender_eintrag_hinzu(d.toString("yyyy-MM-dd"), mitarbeiter["mitarbeiter_id"])
-                    self.db.fuege_kalender_eintrag_hinzu(d.toString("yyyy-MM-dd"), mitarbeiter["mitarbeiter2_id"])
+                    print("2")
+                    self.db.fuege_kalender_eintrag_hinzu(d.toString("yyyy-MM-dd"), mitarbeiter["mitarbeiter_id"],mitarbeiter["individual_point"])
+                    self.db.fuege_kalender_eintrag_hinzu(d.toString("yyyy-MM-dd"), mitarbeiter["mitarbeiter2_id"],mitarbeiter["individual_point"])
             self.lade_alle_eintraege()
 
     def update_tag_formatierung(self, datum):
@@ -217,6 +221,7 @@ class EintragDialog(QDialog):
         self.start_datum.setCalendarPopup(True)
         self.end_datum = QDateEdit(datum)
         self.end_datum.setCalendarPopup(True)
+        self.individual_point = QLineEdit()
         self.db = db
 
         self.mitarbeiter_combo = QComboBox()
@@ -237,6 +242,8 @@ class EintragDialog(QDialog):
         self.checkbox = QCheckBox("Tag geteilt")
         self.checkbox.setChecked(False)
         self.layout().addWidget(self.checkbox)
+        self.layout().addWidget(QLabel("Individuelle Punkte"))
+        self.layout().addWidget(self.individual_point)
         self.checkbox.stateChanged.connect(self.toggle_extra_field)
 
         # Das zweite Combo erst als None setzen
@@ -253,6 +260,7 @@ class EintragDialog(QDialog):
         eintraege = db.get_selected_kalender(datum_str, None)  # alle an dem Tag holen
         if eintraege:
             if len(eintraege) >= 1:
+                self.individual_point.setText(str(eintraege[0].get("individuelle_punkte", "")))
                 self.mitarbeiter_combo.setCurrentIndex(
                     self.mitarbeiter_combo.findData(eintraege[0]["mitarbeiter_id"])
                 )
@@ -263,6 +271,8 @@ class EintragDialog(QDialog):
                 self.mitarbeiter_combo2.setCurrentIndex(
                     self.mitarbeiter_combo2.findData(eintraege[1]["mitarbeiter_id"])
                 )
+
+
 
         if self.db.isExisting(datum_str):
             delete_button = buttons.addButton("Löschen", QDialogButtonBox.DestructiveRole)
@@ -276,6 +286,7 @@ class EintragDialog(QDialog):
             "name": self.mitarbeiter_combo.currentText(),
             "start_datum": self.start_datum.date(),
             "end_datum": self.end_datum.date(),
+            "individual_point": self.individual_point.text(),
             "mitarbeiter2_id": self.mitarbeiter_combo2.currentData() if self.mitarbeiter_combo2 else None
         }
 

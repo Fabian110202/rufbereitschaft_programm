@@ -72,30 +72,79 @@ class SollIstWidget(QWidget):
         tag = datum.weekday()
         if FeiertageAPI.is_feiertag_in_land(datum_str):
             return 3
-        elif tag >= 5:  # Samstag oder Sonntag
+        elif tag >= 4 and datum > QDate(2026,3, 1): #Samstag oder Sonntag oder Freitag (Änderung gültig ab 01.03.2026)
+           return 2
+        elif tag >= 5 and datum < QDate(2026,3,1): #Samstag oder Sonntag vor der Änderung
             return 2
         else:
             return 1
 
     def punkte_ist_pro_tag(self, datum_str):
+        print("start")
         dt = datetime.strptime(datum_str, "%Y-%m-%d")
-        tag = dt.weekday()
+        print("nach datetime")
 
-        query = """
-                SELECT count(*) as count
-                FROM kalender_mitarbeiter
-                WHERE datum = ? \
-                """
-        self.db.cursor.execute(query, (datum_str,))
+        tag = dt.weekday()
+        stichtag = datetime(2026, 3, 1)
+
+        query_count = """
+            SELECT COUNT(*)
+            FROM kalender_mitarbeiter
+            WHERE datum = ?
+        """
+
+        query_individuell = """
+            SELECT individuelle_punkte
+            FROM kalender_mitarbeiter
+            WHERE datum = ? 
+              AND individuelle_punkte IS NOT NULL
+            LIMIT 1
+        """
+
+        print("vor query_count")
+        self.db.cursor.execute(query_count, (datum_str,))
         row = self.db.cursor.fetchone()
         count = row[0] if row else 0
+        print("nach query_count", count)
 
-        if FeiertageAPI.is_feiertag_in_land(datum_str):
-            return 3
-        elif tag >= 5:
-            return 1 if count > 1 else 2
+        print("vor query_individuell")
+        self.db.cursor.execute(query_individuell, (datum_str,))
+        row = self.db.cursor.fetchone()
+        print("row type:", type(row))
+
+        if row and row[0] is not None:
+            try:
+                individuelle_punkte = float(row[0])
+            except (ValueError, TypeError) as e:
+                print("Fehler bei individuelle_punkte:", row[0], type(row[0]), e)
+                individuelle_punkte = 0
         else:
-            return 1
+            individuelle_punkte = 0
+
+        print(individuelle_punkte)
+
+        mehrfach_belegt = count > 1
+        hat_individuelle_punkte = individuelle_punkte is not None and individuelle_punkte > 0
+
+        print("vor feiertag")
+        ist_feiertag = FeiertageAPI.is_feiertag_in_land(datum_str)
+        print("nach feiertag", ist_feiertag)
+
+        if ist_feiertag:
+            return individuelle_punkte if hat_individuelle_punkte else 3
+
+        if hat_individuelle_punkte:
+            return individuelle_punkte / 2 if mehrfach_belegt else individuelle_punkte
+
+        if dt >= stichtag:
+            ist_zwei_punkte_tag = tag >= 4
+        else:
+            ist_zwei_punkte_tag = tag >= 5
+
+        if ist_zwei_punkte_tag:
+            return 1 if mehrfach_belegt else 2
+
+        return 1
 
     def gesamt_soll_punkte_im_zeitraum(self, start_dt, end_dt):
         tage = self.tage_im_zeitraum(start_dt, end_dt)

@@ -4225,3 +4225,1956 @@ Anzahl datensätze: 4
   mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
   mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
 === aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
+=== aktualisiere_tabelle START ===
+Anzahl datensätze: 4
+--- Datensatz 0 ---
+  mitarbeiter_id -> repr: 1 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Fabian' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Gahlen' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-07-28' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#2cff8b' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 1 ---
+  mitarbeiter_id -> repr: 2 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Christin' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Bernstein' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#1d3fff' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+--- Datensatz 2 ---
+  mitarbeiter_id -> repr: 3 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Test' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-08-26' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#89ffd2' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 1 | type: <class 'int'>
+--- Datensatz 3 ---
+  mitarbeiter_id -> repr: 7 | type: <class 'int'>
+  mitarbeiter_vorname -> repr: 'Verena' | type: <class 'str'>
+  mitarbeiter_nachname -> repr: 'Schrudde' | type: <class 'str'>
+  mitarbeiter_eintritt -> repr: '2025-04-01' | type: <class 'str'>
+  mitarbeiter_farbe -> repr: '#ff1702' | type: <class 'str'>
+  mitarbeiter_ignorieren -> repr: 0 | type: <class 'int'>
+=== aktualisiere_tabelle ENDE erfolgreich ===
