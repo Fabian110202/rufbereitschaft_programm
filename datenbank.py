@@ -31,6 +31,7 @@ class Datenbank:
             mitarbeiter_vorname TEXT DEFAULT NULL,
             mitarbeiter_nachname TEXT DEFAULT NULL,
             mitarbeiter_eintritt TEXT DEFAULT NULL,
+            mitarbeiter_austritt TEXT DEFAULT NULL,
             mitarbeiter_farbe TEXT DEFAULT '#ffffff',
             mitarbeiter_ignorieren INTEGER DEFAULT 0
         );
@@ -52,45 +53,59 @@ class Datenbank:
         AFTER UPDATE ON kalender_mitarbeiter
         FOR EACH ROW
         BEGIN
-            UPDATE kalender_mitarbeiter SET aktualisiert_am = CURRENT_TIMESTAMP WHERE id = OLD.id;
+            UPDATE kalender_mitarbeiter
+            SET aktualisiert_am = CURRENT_TIMESTAMP
+            WHERE id = OLD.id;
         END;
         """
 
+        # 1. Erst Tabellen erstellen!
+        self.cursor.execute(mitarbeiter_sql)
+        self.cursor.execute(kalender_sql)
+        self.cursor.execute(trigger_sql)
+        self.conn.commit()
+
+        # 2. Danach Migration prüfen
         self.cursor.execute("PRAGMA table_info(kalender_mitarbeiter)")
         columns = [col[1] for col in self.cursor.fetchall()]
 
         if "individuelle_punkte" not in columns:
             self.cursor.execute("""
-                        ALTER TABLE kalender_mitarbeiter 
-                        ADD COLUMN individuelle_punkte INTEGER NOT NULL DEFAULT 0;
-                    """)
+                ALTER TABLE kalender_mitarbeiter 
+                ADD COLUMN individuelle_punkte INTEGER NOT NULL DEFAULT 0;
+            """)
+            self.conn.commit()
 
-        self.cursor.execute(mitarbeiter_sql)
+        self.cursor.execute("PRAGMA table_info(mitarbeiter)")
+        columns = [col[1] for col in self.cursor.fetchall()]
 
-        self.cursor.execute(kalender_sql)
-        self.cursor.execute(trigger_sql)
-        self.conn.commit()
+        if "mitarbeiter_austritt" not in columns:
+            self.cursor.execute("""
+              ALTER TABLE mitarbeiter 
+              ADD COLUMN mitarbeiter_austritt DATE;
+            """)
+            self.conn.commit()
 
     def lade_mitarbeiter(self):
-        query = "SELECT mitarbeiter_id, mitarbeiter_vorname, mitarbeiter_nachname, mitarbeiter_eintritt, mitarbeiter_farbe,mitarbeiter_ignorieren FROM mitarbeiter"
+        query = "SELECT mitarbeiter_id, mitarbeiter_vorname, mitarbeiter_nachname, mitarbeiter_eintritt,mitarbeiter_austritt ,mitarbeiter_farbe,mitarbeiter_ignorieren FROM mitarbeiter"
         self.cursor.execute(query)
         return [dict(row) for row in self.cursor.fetchall()]
 
-    def fuege_mitarbeiter_hinzu(self, vorname, nachname, eintritt, farbe, ignorieren):
+    def fuege_mitarbeiter_hinzu(self, vorname, nachname, eintritt,austritt, farbe, ignorieren):
         query = """
-        INSERT INTO mitarbeiter (mitarbeiter_vorname, mitarbeiter_nachname, mitarbeiter_eintritt, mitarbeiter_farbe, mitarbeiter_ignorieren)
-        VALUES (?, ?, ?, ?, ?)
+        INSERT INTO mitarbeiter (mitarbeiter_vorname, mitarbeiter_nachname, mitarbeiter_eintritt, mitarbeiter_austritt, mitarbeiter_farbe, mitarbeiter_ignorieren)
+        VALUES (?, ?, ?, ?, ?, ?)
         """
-        self.cursor.execute(query, (vorname, nachname, eintritt, farbe,ignorieren))
+        self.cursor.execute(query, (vorname, nachname, eintritt, austritt, farbe,ignorieren))
         self.conn.commit()
 
-    def aktualisiere_mitarbeiter(self, mitarbeiter_id, vorname, nachname, eintritt, farbe, ignore):
+    def aktualisiere_mitarbeiter(self, mitarbeiter_id, vorname, nachname, eintritt, austritt, farbe, ignore):
         query = """
         UPDATE mitarbeiter
-        SET mitarbeiter_vorname = ?, mitarbeiter_nachname = ?, mitarbeiter_eintritt = ?, mitarbeiter_farbe = ?, mitarbeiter_ignorieren = ?
+        SET mitarbeiter_vorname = ?, mitarbeiter_nachname = ?, mitarbeiter_eintritt = ?,mitarbeiter_austritt = ? ,mitarbeiter_farbe = ?, mitarbeiter_ignorieren = ?
         WHERE mitarbeiter_id = ?
         """
-        self.cursor.execute(query, (vorname, nachname, eintritt, farbe, ignore, mitarbeiter_id))
+        self.cursor.execute(query, (vorname, nachname, eintritt, austritt, farbe, ignore, mitarbeiter_id))
         self.conn.commit()
 
     def loesche_mitarbeiter(self, mitarbeiter_id):

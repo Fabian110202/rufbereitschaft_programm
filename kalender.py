@@ -1,32 +1,59 @@
 import sqlite3
 from datetime import datetime, timedelta
 from PyQt5.QtWidgets import (
-    QWidget, QVBoxLayout, QCalendarWidget, QLabel,
-    QDialog, QComboBox, QDialogButtonBox, QMessageBox, QDateEdit, QCheckBox, QLineEdit
+    QWidget, QVBoxLayout, QHBoxLayout, QCalendarWidget, QLabel,
+    QDialog, QComboBox, QDialogButtonBox, QMessageBox, QDateEdit, QCheckBox, QLineEdit,
+    QToolButton
 )
+from PyQt5.QtGui import QIcon
+from modern_theme import karte, deutsche_buttons
 from PyQt5.QtCore import QDate, QTimer
-from PyQt5.QtGui import QTextCharFormat, QColor, QLinearGradient, QBrush
+from PyQt5.QtGui import QTextCharFormat, QColor, QBrush, QFont, QDoubleValidator
 
 
 class KalenderWidget(QWidget):
     def __init__(self, db):
         super().__init__()
         self.db = db
-        self.setLayout(QVBoxLayout())
+
+        aussen = QVBoxLayout(self)
+        aussen.setContentsMargins(18, 18, 18, 18)
+        aussen.setSpacing(14)
 
         self.kalender = QCalendarWidget()
-        self.kalender.setGridVisible(True)
+        self.kalender.setGridVisible(False)
+        self.kalender.setVerticalHeaderFormat(QCalendarWidget.ISOWeekNumbers)
+        self.kalender.setHorizontalHeaderFormat(QCalendarWidget.ShortDayNames)
         self.kalender.clicked.connect(self.tag_geklickt)
-        self.layout().addWidget(self.kalender)
-        self.legende_widget = QWidget()
+
+        self.style_kalender()
+
+        self.status_label = QLabel("Klicke auf einen Tag, um Rufbereitschaft einzutragen.")
+        self.status_label.setObjectName("hinweis")
+
+        legende_titel = QLabel("Legende")
+        legende_titel.setObjectName("kartentitel")
+
         self.legende_layout = QVBoxLayout()
-        self.legende_widget.setLayout(self.legende_layout)
-        self.layout().addWidget(self.legende_widget)
+        self.legende_layout.setSpacing(6)
 
-        self.status_label = QLabel("Wähle ein Datum.")
-        self.layout().addWidget(self.status_label)
+        self.legende_widget = karte(legende_titel, self.legende_layout)
 
-        # Mitarbeiter laden inkl. Farbe
+        aussen.addWidget(karte(self.kalender, self.status_label))
+        aussen.addWidget(self.legende_widget)
+
+        self.mitarbeiter_liste = []
+        self.mitarbeiter_farben = {}
+        self.eintraege = {}
+
+        self.lade_alle_eintraege()
+
+    def lade_mitarbeiter_daten(self):
+        """Mitarbeiter inkl. Farben neu aus der DB holen.
+
+        Muss vor jeder Neudarstellung laufen, damit im Mitarbeiter-Tab angelegte
+        oder geänderte Personen ohne Neustart im Kalender auftauchen.
+        """
         self.mitarbeiter_liste = self.db.lade_mitarbeiter()
 
         # Dict: mitarbeiter_id -> Farbe (hex string)
@@ -37,10 +64,6 @@ class KalenderWidget(QWidget):
                 self.mitarbeiter_farben[m["mitarbeiter_id"]] = farbe
             else:
                 self.mitarbeiter_farben[m["mitarbeiter_id"]] = "#FFFFFF"  # default weiß
-
-        self.eintraege = {}
-
-        self.lade_alle_eintraege()
 
     def aktualisiere_legende(self):
         # Alle vorhandenen Widgets aus dem Legenden-Layout entfernen
@@ -75,15 +98,131 @@ class KalenderWidget(QWidget):
                 count = len(farben_valid)
                 gemischte_farbe = QColor(total_r // count, total_g // count, total_b // count)
 
-            legenden_eintrag = QLabel()
-            style = f"background-color: {gemischte_farbe.name()}; border: 1px solid black;"
-            legenden_eintrag.setStyleSheet(style)
-            legenden_eintrag.setText(f"  {', '.join(namen)}")
-            self.legende_layout.addWidget(legenden_eintrag)
+            # Farbfläche als kleiner Chip, Text daneben in normaler Schriftfarbe
+            punkt = QLabel()
+            punkt.setFixedSize(16, 16)
+            punkt.setStyleSheet(
+                f"background-color: {gemischte_farbe.name()};"
+                "border: 1px solid rgba(0,0,0,0.15); border-radius: 8px;"
+            )
+
+            beschriftung = QLabel(", ".join(namen))
+
+            zeile = QHBoxLayout()
+            zeile.setSpacing(10)
+            zeile.addWidget(punkt)
+            zeile.addWidget(beschriftung)
+            zeile.addStretch()
+
+            behaelter = QWidget()
+            behaelter.setObjectName("transparent")
+            behaelter.setLayout(zeile)
+            self.legende_layout.addWidget(behaelter)
 
         # Legende unsichtbar machen, wenn keine Kombinationen vorliegen
         self.legende_widget.setVisible(bool(kombinationen))
+    def style_kalender(self):
+        self.kalender.setStyleSheet("""
+            QCalendarWidget {
+                background-color: #FFFFFF;
+                border: none;
+            }
+
+            QCalendarWidget QWidget#qt_calendar_navigationbar {
+                background-color: #FFFFFF;
+                border-bottom: 1px solid #E4E8EF;
+                padding: 2px;
+            }
+
+            QCalendarWidget QToolButton {
+                height: 30px;
+                margin: 3px;
+                padding: 4px 12px;
+                color: #1F2937;
+                background-color: transparent;
+                border: none;
+                border-radius: 7px;
+                font-weight: 600;
+            }
+
+            QCalendarWidget QToolButton:hover {
+                background-color: #EEF2F7;
+            }
+
+            QCalendarWidget QToolButton:pressed {
+                background-color: #E0E7F0;
+            }
+
+            QCalendarWidget QMenu {
+                background-color: #FFFFFF;
+                color: #111827;
+                border: 1px solid #E5E7EB;
+            }
+
+            QCalendarWidget QSpinBox {
+                background-color: #FFFFFF;
+                color: #111827;
+                border: 1px solid #D1D5DB;
+                border-radius: 6px;
+                padding: 4px;
+            }
+
+            QCalendarWidget QAbstractItemView {
+                background-color: #FFFFFF;
+                alternate-background-color: #FFFFFF;
+                color: #1F2937;
+                selection-background-color: #2563EB;
+                selection-color: #FFFFFF;
+                outline: 0;
+                border: none;
+                font-size: 14px;
+            }
+
+            QCalendarWidget QAbstractItemView:disabled {
+                color: #9CA3AF;
+            }
+
+            QCalendarWidget QHeaderView::section {
+                background-color: #FFFFFF;
+                color: #6B7280;
+                padding: 8px;
+                border: none;
+                font-weight: 600;
+                font-size: 12px;
+            }
+        """)
+
+        # Die grünen System-Icons der Navigationspfeile passen nicht ins Theme;
+        # durch schlichte Textpfeile ersetzen.
+        for name, zeichen in (("qt_calendar_prevmonth", "‹"), ("qt_calendar_nextmonth", "›")):
+            knopf = self.kalender.findChild(QToolButton, name)
+            if knopf is not None:
+                knopf.setIcon(QIcon())
+                knopf.setText(zeichen)
+                knopf.setStyleSheet("font-size: 20px; padding: 0 14px;")
+
+        werktag_format = QTextCharFormat()
+        werktag_format.setForeground(QBrush(QColor("#111827")))
+        werktag_format.setFontWeight(QFont.DemiBold)
+
+        wochenende_format = QTextCharFormat()
+        wochenende_format.setForeground(QBrush(QColor("#B91C1C")))
+        wochenende_format.setFontWeight(QFont.Bold)
+
+        for tag in range(1, 6):
+            self.kalender.setWeekdayTextFormat(tag, werktag_format)
+
+        self.kalender.setWeekdayTextFormat(6, wochenende_format)
+        self.kalender.setWeekdayTextFormat(7, wochenende_format)
+    def kontrast_textfarbe(self, farbe):
+        helligkeit = (farbe.red() * 299 + farbe.green() * 587 + farbe.blue() * 114) / 1000
+
+        if helligkeit > 155:
+            return QColor("#111827")
+
+        return QColor("#FFFFFF")
     def lade_alle_eintraege(self):
+        self.lade_mitarbeiter_daten()
         self.eintraege.clear()
         # Korrigierte SQL mit String-Verkettung in SQLite
         self.db.cursor.execute("""
@@ -137,27 +276,32 @@ class KalenderWidget(QWidget):
             if any(e["mitarbeiter_id"] == mitarbeiter["mitarbeiter_id"] for e in eintraege_heute):
                 QMessageBox.information(self, "Hinweis", f"{mitarbeiter['name']} ist bereits eingetragen.")
                 return
-            if mitarbeiter["start_datum"] > mitarbeiter["end_datum"]:
-                QMessageBox.information(self, "Hinweis", "Datum von vor dem Datum bis liegen")
-
-            dates =[]
+            # Der Zeitraum ist im Dialog bereits validiert.
+            dates = []
             current_date = mitarbeiter["start_datum"]
-
-            while current_date <=  mitarbeiter["end_datum"]:
+            while current_date <= mitarbeiter["end_datum"]:
                 dates.append(current_date)
                 current_date = current_date.addDays(1)
 
-            for d in dates:
-                if not mitarbeiter["mitarbeiter2_id"]:
-                    print("1")
-                    self.db.fuege_kalender_eintrag_hinzu(d.toString("yyyy-MM-dd"), mitarbeiter["mitarbeiter_id"], mitarbeiter["individual_point"])
+            try:
+                for d in dates:
+                    datum_str = d.toString("yyyy-MM-dd")
+                    self.db.fuege_kalender_eintrag_hinzu(
+                        datum_str, mitarbeiter["mitarbeiter_id"], mitarbeiter["individual_point"]
+                    )
+                    if mitarbeiter["mitarbeiter2_id"]:
+                        self.db.fuege_kalender_eintrag_hinzu(
+                            datum_str, mitarbeiter["mitarbeiter2_id"], mitarbeiter["individual_point"]
+                        )
+            except Exception as e:
+                QMessageBox.critical(self, "Fehler", f"Eintrag konnte nicht gespeichert werden:\n{e}")
 
-
-                else:
-                    print("2")
-                    self.db.fuege_kalender_eintrag_hinzu(d.toString("yyyy-MM-dd"), mitarbeiter["mitarbeiter_id"],mitarbeiter["individual_point"])
-                    self.db.fuege_kalender_eintrag_hinzu(d.toString("yyyy-MM-dd"), mitarbeiter["mitarbeiter2_id"],mitarbeiter["individual_point"])
             self.lade_alle_eintraege()
+            anzahl = len(dates)
+            self.status_label.setText(
+                f"{anzahl} Tag{'e' if anzahl != 1 else ''} eingetragen "
+                f"({dates[0].toString('dd.MM.yyyy')} – {dates[-1].toString('dd.MM.yyyy')})"
+            )
 
     def update_tag_formatierung(self, datum):
         try:
@@ -166,42 +310,42 @@ class KalenderWidget(QWidget):
             if datum in self.eintraege and self.eintraege[datum]:
                 mitarbeiter_ids = [e["mitarbeiter_id"] for e in self.eintraege[datum]]
                 farben = [self.mitarbeiter_farben.get(mid, "#FFFFFF") for mid in mitarbeiter_ids]
-
-                # Gültigkeit der Farben prüfen und ggf. auf Weiß zurücksetzen
                 farben_valid = [QColor(f) for f in farben if QColor(f).isValid()]
 
-                # Tooltip mit allen Namen
                 namen = [e["name"] for e in self.eintraege[datum]]
                 tooltip_text = "Mitarbeiter an diesem Tag:\n" + "\n".join(namen)
                 formatierung.setToolTip(tooltip_text)
 
                 if len(farben_valid) == 0:
-                    # Keine gültigen Farben gefunden
-                    formatierung.setBackground(QColor("white"))
+                    hintergrund = QColor("#FFFFFF")
 
                 elif len(farben_valid) == 1:
-                    # Nur eine Farbe, diese direkt verwenden
-                    formatierung.setBackground(farben_valid[0])
+                    hintergrund = farben_valid[0]
 
                 else:
-                    # Mehrere Farben: RGB-Werte mischen
-                    total_r, total_g, total_b = 0, 0, 0
+                    total_r = 0
+                    total_g = 0
+                    total_b = 0
+
                     for qcolor in farben_valid:
                         total_r += qcolor.red()
                         total_g += qcolor.green()
                         total_b += qcolor.blue()
 
                     count = len(farben_valid)
-                    avg_r = total_r // count
-                    avg_g = total_g // count
-                    avg_b = total_b // count
+                    hintergrund = QColor(
+                        total_r // count,
+                        total_g // count,
+                        total_b // count
+                    )
 
-                    mixed_color = QColor(avg_r, avg_g, avg_b)
-                    formatierung.setBackground(mixed_color)
+                formatierung.setBackground(QBrush(hintergrund))
+                formatierung.setForeground(QBrush(self.kontrast_textfarbe(hintergrund)))
+                formatierung.setFontWeight(QFont.Bold)
 
             else:
-                # Standard-Formatierung, wenn keine Einträge vorhanden sind
-                formatierung.setBackground(QColor("white"))
+                formatierung.setBackground(QBrush(QColor("#FFFFFF")))
+                formatierung.setForeground(QBrush(QColor("#111827")))
                 formatierung.setToolTip("")
 
             self.kalender.setDateTextFormat(datum, formatierung)
@@ -214,14 +358,25 @@ class EintragDialog(QDialog):
     def __init__(self, datum, mitarbeiter_liste, db, kalender_widget):
         super().__init__()
         self.kalender_widget = kalender_widget
-        self.setWindowTitle(f"Mitarbeiter auswählen für {datum.toString('dd.MM.yyyy')}")
-        self.setMinimumWidth(300)
+        self.setWindowTitle(f"Rufbereitschaft am {datum.toString('dd.MM.yyyy')}")
+        self.setMinimumWidth(360)
         self.setLayout(QVBoxLayout())
+        self.layout().setContentsMargins(24, 24, 24, 24)
+        self.layout().setSpacing(10)
         self.start_datum = QDateEdit(datum)
         self.start_datum.setCalendarPopup(True)
         self.end_datum = QDateEdit(datum)
         self.end_datum.setCalendarPopup(True)
         self.individual_point = QLineEdit()
+        self.individual_point.setPlaceholderText("leer = automatische Punkte")
+        self.individual_point.setToolTip(
+            "Optional. Überschreibt die automatisch berechneten Tagespunkte.\n"
+            "Nur Zahlen, maximal zwei Nachkommastellen (z. B. 1,5)."
+        )
+        # Nur Zahlen zulassen; das Locale-Format des Validators akzeptiert Komma und Punkt.
+        validator = QDoubleValidator(0.0, 999.0, 2, self)
+        validator.setNotation(QDoubleValidator.StandardNotation)
+        self.individual_point.setValidator(validator)
         self.db = db
 
         self.mitarbeiter_combo = QComboBox()
@@ -249,7 +404,7 @@ class EintragDialog(QDialog):
         # Das zweite Combo erst als None setzen
         self.mitarbeiter_combo2 = None
 
-        buttons = QDialogButtonBox(QDialogButtonBox.Ok | QDialogButtonBox.Cancel)
+        buttons = deutsche_buttons(QDialogButtonBox(QDialogButtonBox.Ok | QDialogButtonBox.Cancel))
         buttons.accepted.connect(self.accept)
         buttons.rejected.connect(self.reject)
         datum_str = datum.toString("yyyy-MM-dd")
@@ -280,14 +435,62 @@ class EintragDialog(QDialog):
 
         self.layout().addWidget(buttons)
 
+    def parse_individuelle_punkte(self):
+        """Eingabe der individuellen Punkte als Zahl zurückgeben.
+
+        Rückgabe: (wert, fehlermeldung). Leere Eingabe bedeutet 0 = automatische
+        Berechnung. Bei ungültiger Eingabe ist der Wert None.
+        """
+        text = self.individual_point.text().strip().replace(",", ".")
+        if not text:
+            return 0, None
+
+        try:
+            wert = float(text)
+        except ValueError:
+            return None, "Individuelle Punkte müssen eine Zahl sein (z. B. 1 oder 1,5)."
+
+        if wert < 0:
+            return None, "Individuelle Punkte dürfen nicht negativ sein."
+
+        return wert, None
+
+    def accept(self):
+        punkte, fehler = self.parse_individuelle_punkte()
+        if fehler:
+            QMessageBox.warning(self, "Ungültige Eingabe", fehler)
+            self.individual_point.setFocus()
+            self.individual_point.selectAll()
+            return
+
+        if self.start_datum.date() > self.end_datum.date():
+            QMessageBox.warning(
+                self, "Ungültiger Zeitraum",
+                "Das Datum unter „Von“ muss vor dem Datum unter „Bis“ liegen."
+            )
+            self.start_datum.setFocus()
+            return
+
+        if self.mitarbeiter_combo2 and self.checkbox.isChecked():
+            if self.mitarbeiter_combo2.currentData() == self.mitarbeiter_combo.currentData():
+                QMessageBox.warning(
+                    self, "Ungültige Auswahl",
+                    "Für einen geteilten Tag müssen zwei verschiedene Mitarbeiter gewählt werden."
+                )
+                return
+
+        super().accept()
+
     def get_data(self):
+        punkte, _ = self.parse_individuelle_punkte()
         return {
             "mitarbeiter_id": self.mitarbeiter_combo.currentData(),
             "name": self.mitarbeiter_combo.currentText(),
             "start_datum": self.start_datum.date(),
             "end_datum": self.end_datum.date(),
-            "individual_point": self.individual_point.text(),
-            "mitarbeiter2_id": self.mitarbeiter_combo2.currentData() if self.mitarbeiter_combo2 else None
+            "individual_point": punkte if punkte is not None else 0,
+            "mitarbeiter2_id": self.mitarbeiter_combo2.currentData()
+                if (self.mitarbeiter_combo2 and self.checkbox.isChecked()) else None
         }
 
     def toggle_extra_field(self, state):
