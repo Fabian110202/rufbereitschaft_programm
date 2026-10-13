@@ -1,0 +1,41 @@
+name: Windows-exe bauen
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    # Falls main.py nicht im Hauptordner des Repos liegt, hier den Unterordner eintragen:
+    # defaults:
+    #   run:
+    #     working-directory: rufbereitschaft_programm
+
+    steps:
+      - name: Code holen
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Pakete installieren
+        run: |
+          python -m pip install --upgrade pip
+          pip install PyQt5 pyinstaller
+          if (Test-Path requirements.txt) { pip install -r requirements.txt }
+
+      - name: exe bauen
+        run: pyinstaller --clean --onefile --windowed --name Rufbereitschaft main.py
+
+      - name: exe zum Download bereitstellen
+        uses: actions/upload-artifact@v4
+        with:
+          name: Rufbereitschaft-Windows
+          path: |
+            dist/Rufbereitschaft.exe
+            rufbereitschaft_programm/dist/Rufbereitschaft.exe
+          if-no-files-found: error
